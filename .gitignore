@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Convertly runtime artifacts
+config.json
+app.log
+.pid
+output convert/
+venv/.deps_installed
+
+# Test artifacts
+tests/tmp_full/
+tests/tmp_out/
+
+# Catatan debug internal (bukan bagian dari distribusi)
+BUG_TEMUAN_*.md
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
